@@ -27,16 +27,16 @@ async def cr_source(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "طريقة الإستخدام", callback_data="usage"), 
+                        "طريقة الإستخدام", callback_data="O_F_4"), 
                  ],[
                     InlineKeyboardButton(
-                        "مطـور السـورس", url=f"https://t.me/O_F_4"),
+                        "مـطور السـورس ", url=f"https://t.me/O_F_4"),
                     InlineKeyboardButton(
-                        "𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM"),
+                        "قنـاه بـوستات", url=f"https://t.me/N_8888_o"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/O_F_4"),
+                        "★⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/NO_VP8"),
                 ],
 
             ]
@@ -46,8 +46,8 @@ async def cr_source(client: Client, message: Message):
     )
 
     
-@app.on_callback_query(filters.regex("usage"))
-async def cr_usage(_, callback_query: CallbackQuery):
+@app.on_callback_query(filters.regex("O_F_4"))
+async def cr_O_F_4(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
         text="""**⩹━★⊷⌯⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**
@@ -74,9 +74,9 @@ async def cr_back(_, callback_query: CallbackQuery):
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="tommm")],
-            [InlineKeyboardButton("مطـور السـورس", url=f"https://t.me/O_F_4"),
-             InlineKeyboardButton("𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM")],
-            [InlineKeyboardButton("★⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/O_F_4")],
+            [InlineKeyboardButton("مـطور السـورس ", url=f"https://t.me/O_F_4"),
+             InlineKeyboardButton("قنـاه بـوستات", url=f"https://t.me/N_8888_o")],
+            [InlineKeyboardButton("قناه السورس", url=f"https://t.me/NO_VP8")],
         ]
     ))
 
