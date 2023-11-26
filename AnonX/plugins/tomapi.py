@@ -21,22 +21,22 @@ from pyrogram.errors import MessageNotModified
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/679986673c48326b4ddb2.jpg",
-        caption=f"""**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
+        photo=f"https://telegra.ph/file/520cb8756d31bb3184de2.jpg",
+        caption=f"""**⩹━★⊷━⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "طريقة الإستخدام", callback_data="O_F_4"), 
+                        "طريقة الإستخدام", callback_data="usage"), 
                  ],[
                     InlineKeyboardButton(
-                        "مــطور السـورس ", url=f"https://t.me/O_F_4"),
+                        "Monzer مــنــذر", url=f"https://t.me/IIIIIiQz"),
                     InlineKeyboardButton(
-                        "قـناه الكـود ", url=f"https://t.me/noordot"),
+                        "𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  السورس • قناه ⌝⚡", url=f"https://t.me/NO_VP8"),
+                        "★⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/TNT_source"),
                 ],
 
             ]
@@ -46,16 +46,16 @@ async def cr_source(client: Client, message: Message):
     )
 
     
-@app.on_callback_query(filters.regex("O_F_4"))
-async def cr_O_F_4(_, callback_query: CallbackQuery):
+@app.on_callback_query(filters.regex("usage"))
+async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""**⩹━★⊷⌯⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**
+        text="""**⩹━★⊷⌯⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**
 ★¦ اهلا بك عزيزي في قسم الأوامر
 ★¦ لتتمكن من تشغيل الذكاء الاصطناعي فقط اكتب
 ★¦ /gpt - لـلـسـؤال آي سـؤال بالـذكـاء الاسـطـناعي
 
-**⩹━★⊷⌯⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**""",
+**⩹━★⊷⌯⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -74,9 +74,9 @@ async def cr_back(_, callback_query: CallbackQuery):
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="tommm")],
-            [InlineKeyboardButton("مــطور السـورس ", url=f"https://t.me/O_F_4"),
-             InlineKeyboardButton("قـناه الكـود ", url=f"https://t.me/noordot")],
-            [InlineKeyboardButton("★⌞  السورس • قناه ⌝⚡", url=f"https://t.me/NO_VP8")],
+            [InlineKeyboardButton("Monzer مــنــذر", url=f"https://t.me/IIIIIiQz"),
+             InlineKeyboardButton("𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM")],
+            [InlineKeyboardButton("★⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/TNT_source")],
         ]
     ))
 
