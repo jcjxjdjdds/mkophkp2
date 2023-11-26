@@ -29,7 +29,7 @@ async def huhh(client: Client, message: Message):
                         "᳒مــطور السـورس  ", url=f"https://t.me/o_f_4"), 
                  ],[
                     InlineKeyboardButton(
-                        "قـناه السـورس ", url=f"https://t.me/NO_VP8"),
+                        "قـناه السـورس ", url=f"https://t.me/T4_Mohamed"),
                 ],[
                     InlineKeyboardButton(
                         "قناه بوستات", url=f"https://t.me/N_8888_o"),
@@ -38,7 +38,7 @@ async def huhh(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞ قناه السورس ⌝⚡", url=f"https://t.me/NO_VP8"),
+                        "تونز الحاكم ", url=f"https://t.me/T4_Mohamed"),
                 ],
 
             ]
@@ -55,7 +55,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["نور"])
+    command(["مطور"])
     & filters.group
     & ~filters.edited
 )
@@ -156,7 +156,7 @@ async def huhh(client: Client, message: Message):
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  قناه السورس ⌝⚡", url=f"https://t.me/NO_VP8"),
+                        "★⌞  قناه السورس ⌝⚡", url=f"https://t.me/T4_Mohamed"),
                 ],
 
             ]
@@ -184,7 +184,7 @@ async def huhh(client: Client, message: Message):
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  قناه السورس ⌝⚡", url=f"https://t.me/NO_VP8"),
+                        "★⌞  قناه السورس ⌝⚡", url=f"https://t.me/T4_Mohamed"),
                 ],
 
             ]
