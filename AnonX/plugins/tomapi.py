@@ -22,7 +22,7 @@ from pyrogram.errors import MessageNotModified
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/520cb8756d31bb3184de2.jpg",
-        caption=f"""**⩹━★⊷━⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
+        caption=f"""**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -30,13 +30,13 @@ async def cr_source(client: Client, message: Message):
                         "طريقة الإستخدام", callback_data="usage"), 
                  ],[
                     InlineKeyboardButton(
-                        "Monzer مــنــذر", url=f"https://t.me/IIIIIiQz"),
+                        "مطـور السـورس", url=f"https://t.me/O_F_4"),
                     InlineKeyboardButton(
                         "𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/TNT_source"),
+                        "★⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/O_F_4"),
                 ],
 
             ]
@@ -50,12 +50,12 @@ async def cr_source(client: Client, message: Message):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""**⩹━★⊷⌯⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**
+        text="""**⩹━★⊷⌯⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**
 ★¦ اهلا بك عزيزي في قسم الأوامر
 ★¦ لتتمكن من تشغيل الذكاء الاصطناعي فقط اكتب
 ★¦ /gpt - لـلـسـؤال آي سـؤال بالـذكـاء الاسـطـناعي
 
-**⩹━★⊷⌯⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**""",
+**⩹━★⊷⌯⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -74,9 +74,9 @@ async def cr_back(_, callback_query: CallbackQuery):
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="tommm")],
-            [InlineKeyboardButton("Monzer مــنــذر", url=f"https://t.me/IIIIIiQz"),
+            [InlineKeyboardButton("مطـور السـورس", url=f"https://t.me/O_F_4"),
              InlineKeyboardButton("𝐄3𝐃𝐀𝐌", url=f"https://t.me/DAD_E3DAM")],
-            [InlineKeyboardButton("★⌞  ͲΝͲ • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/TNT_source")],
+            [InlineKeyboardButton("★⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/O_F_4")],
         ]
     ))
 
