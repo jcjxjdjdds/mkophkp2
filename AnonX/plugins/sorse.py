@@ -20,7 +20,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c800c2a9448ea034b6fb5.mp4",
+        photo=f"https://telegra.ph/file/a85b7d803c94be3c75a12.jpg",
         caption=f"""𝘛𝘏𝘌 𝘉𝘌𝘚𝘛 𝘚𝘖𝘜𝘙𝘊𝘌 𝘖𝘕 𝘛𝘌𝘓𝘌𝘎𝘙𝘈𝘔،""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -32,7 +32,7 @@ async def huhh(client: Client, message: Message):
                         "جــروب الــدعم ", url=f"https://t.me/NO_VP0"),
                 ],[
                     InlineKeyboardButton(
-                        "⌞ سـورس نـور الحـاكم  ⌝", url=f"https://t.me/TNT_source"),
+                        "⌞ 𝙎𝙤𝙐𝙍𝙘𝙀 𝙣𝙊𝙤𝙍  ⌝", url=f"https://t.me/O_F_4"),
                 ],
 
             ]
