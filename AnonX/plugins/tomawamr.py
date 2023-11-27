@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/679986673c48326b4ddb2.jpg",
+        photo=f"https://telegra.ph/file/c800c2a9448ea034b6fb5.mp4",
         caption=f"""**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس نور الحاكم \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -174,7 +174,7 @@ async def c_usage(_, callback_query: CallbackQuery):
 @app.on_callback_query(filters.regex("back"))
 async def cr_back(_, callback_query: CallbackQuery):
     await callback_query.edit_message_media(
-        media=InputMediaPhoto("https://telegra.ph/file/679986673c48326b4ddb2.jpg", 
+        media=InputMediaPhoto("https://telegra.ph/file/c800c2a9448ea034b6fb5.mp4", 
         caption=f"""**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {callback_query.from_user.mention}\nهذا قسم الاوامر الخاص بسورس كرستين \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝗡𝗢𝗢𝗥 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",),
         reply_markup=InlineKeyboardMarkup(
             [
