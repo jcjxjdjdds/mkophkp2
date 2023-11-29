@@ -20,7 +20,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a85b7d803c94be3c75a12.jpg",
+        photo=f"https://telegra.ph/file/2151a69870068f6850004.jpg",
         caption=f"""𝘛𝘏𝘌 𝘉𝘌𝘚𝘛 𝘚𝘖𝘜𝘙𝘊𝘌 𝘖𝘕 𝘛𝘌𝘓𝘌𝘎𝘙𝘈𝘔،""",
         reply_markup=InlineKeyboardMarkup(
             [
